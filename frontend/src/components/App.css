@@ -1,0 +1,99 @@
+.AppTitle {
+    margin-top: 20px;
+  }
+
+  .Comment {
+    margin: 20px 0;
+    padding: 10px 20px;
+  }
+  
+  .Comment-main {
+    margin-left: 60px;
+    padding: 15px;
+    border-radius: 3px;
+    background-color: #eeedff;
+  }
+  
+  .Comment-main div {
+    margin-top: 10px;
+  }
+  
+  .Comment-author {
+    font-size: 0.9em;
+  }
+  
+  .Comment-date {
+    font-size: 0.8em;
+    color: #c99acf;
+  }
+  
+  .EditPostForm {
+    margin: 20px 0 0 60px;
+  }
+  
+  .EditPostForm form {
+    margin: 20px 0;
+    padding: 10px 20px;
+    border-radius: 3px;
+    background-color: #eee7fd;
+  }
+  
+  .EditPostForm form * {
+    width: 100%;
+    margin: 10px 0;
+  }
+  
+  .NewPostForm {
+    margin: 20px 0;
+    padding: 10px 20px;
+    border-radius: 3px;
+    background-color: #eee7fd;
+  }
+  
+  .NewPostForm fieldset {
+    width: 100%;
+    margin: 10px 0;
+  }
+  
+  .Post-main {
+    margin-left: 60px;
+    margin-bottom: 15px;
+    padding: 15px;
+    border-radius: 3px;
+    background-color: #eee7fd;
+  }
+  
+  .Post-title {
+    text-align: left;
+  }
+  
+  .Post-main div {
+    margin-top: 10px;
+  }
+  
+  .Post-author {
+    font-size: 0.9em;
+  }
+  
+  .Post-date {
+    font-size: 0.8em;
+    color: #c99acf;
+  }
+  
+  .PostDetail {
+    max-width: 600px;
+    margin: 20px 0;
+    padding: 10px 20px;
+  }
+  
+  .PostList-item {
+    max-width: 600px;
+    margin: 20px 0;
+    padding: 10px 20px;
+    list-style-type: none;
+  }
+
+  .PostListHeaderSelect {
+    width: 150px;
+  }
+  
