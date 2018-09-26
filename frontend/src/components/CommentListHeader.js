@@ -15,19 +15,19 @@ class CommentListHeader extends Component {
   render() {
     return (
       <div>
-        <h4>Comments ({this.props.commentCount || 0})</h4>
+        <h4>Commentários ({this.props.commentCount || 0})</h4>
         <div className="comment-list-header-button">
           {this.props.newCommentFormOpen ? (
             <div>
               <Button
-                text={"Close"}
+                text={"Fechar"}
                 mods={["secondary"]}
                 onClick={this.closeNewCommentForm}
               />
             </div>
           ) : (
             <Button
-              text={"Add New Comment"}
+              text={"Adicionar novo comentário"}
               onClick={this.openNewCommentForm}
             />
           )}

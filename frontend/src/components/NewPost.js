@@ -9,7 +9,7 @@ class NewPost extends Component {
     }
     return (
       <div>
-        <h4>Create New Post</h4>
+        <h4>Criar novo Post</h4>
         <NewPostForm />
       </div>
     );

@@ -10,12 +10,12 @@ import LabelledTextInput from "./common/LabelledTextInput";
 
 const FormikForm = ({ values }) => (
   <Form className="NewCommentForm">
-    <LabelledTextInput name="author" type="text" label="Your Name:" />
+    <LabelledTextInput name="author" type="text" label="Seu Nome:" />
     <label>
-      Comment:
-      <Field component="textarea" name="body" />
+      Commentário:
+      <Field component="textarea" name="Texto" />
     </label>
-    <Button text={"Add Comment"} />
+    <Button text={"Adicionar comentário"} />
   </Form>
 );
 

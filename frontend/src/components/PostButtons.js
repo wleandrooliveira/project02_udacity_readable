@@ -24,16 +24,16 @@ class PostButtons extends Component {
   render() {
     return (
       <div>
-        <Button text={"Delete"} mods={["small"]} onClick={this.handleDelete} />
+        <Button text={"Deletar"} mods={["small"]} onClick={this.handleDelete} />
         {this.props.editPostFormOpen ? (
           <Button
-            text={"Close"}
+            text={"Fechar"}
             mods={["secondary", "small"]}
             onClick={this.handleCloseEditForm}
           />
         ) : (
           <Button
-            text={["Edit"]}
+            text={["Editar"]}
             mods={["small"]}
             onClick={this.handleOpenEditForm}
           />

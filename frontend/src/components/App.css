@@ -1,5 +1,6 @@
 .AppTitle {
     margin-top: 20px;
+    color: #eeedff;
   }
 
   .Comment {
@@ -24,7 +25,7 @@
   
   .Comment-date {
     font-size: 0.8em;
-    color: #c99acf;
+    color: #6e6c6e;
   }
   
   .EditPostForm {
@@ -77,7 +78,7 @@
   
   .Post-date {
     font-size: 0.8em;
-    color: #c99acf;
+    color: #6e6c6e;
   }
   
   .PostDetail {

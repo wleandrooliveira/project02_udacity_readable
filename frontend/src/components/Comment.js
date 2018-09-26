@@ -41,7 +41,7 @@ class Comment extends Component {
         <div className="Comment-main">
           <div>{comment.body}</div>
           <div>
-            <span className="Comment-author">Posted by {comment.author}, </span>
+            <span className="Comment-author">Postado por {comment.author}, </span>
             <span className="Comment-date">
               {new Date(comment.timestamp).toDateString()} at{" "}
               {new Date(comment.timestamp).toLocaleTimeString()}
@@ -49,19 +49,19 @@ class Comment extends Component {
           </div>
           <div>
             <Button
-              text={"Delete"}
+              text={"Deletar"}
               mods={["small"]}
               onClick={this.handleDelete}
             />
             {this.props.editCommentFormOpen ? (
               <Button
-                text={"Close"}
+                text={"Fechar"}
                 mods={["secondary", "small"]}
                 onClick={this.handleCloseEditForm}
               />
             ) : (
               <Button
-                text={"Edit"}
+                text={"Editar"}
                 mods={["small"]}
                 onClick={this.handleOpenEditForm}
               />

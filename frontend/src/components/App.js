@@ -4,6 +4,7 @@ import AppTitle from "./AppTitle";
 import Category from "./Category";
 import Navigation from "./Navigation";
 import PostDetail from "./PostDetail";
+import "./App.css";
 
 class App extends Component {
   render() {

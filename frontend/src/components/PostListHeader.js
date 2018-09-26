@@ -29,13 +29,13 @@ class PostListHeader extends Component {
             <div className="float-right">
               {this.props.newPostFormOpen ? (
                 <Button
-                  text={"Close"}
+                  text={"Fechar"}
                   mods={["secondary"]}
                   onClick={this.handleCloseNewPostForm}
                 />
               ) : (
                 <Button
-                  text={"Add Post"}
+                  text={"Adicionar Post"}
                   onClick={this.handleOpenNewPostForm}
                 />
               )}

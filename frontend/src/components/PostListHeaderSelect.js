@@ -20,8 +20,8 @@ class PostListHeaderSelect extends Component {
         value={this.props.categorySort}
         onChange={this.handleSortChange}
       >
-        <option value="voteScore">Vote Score</option>
-        <option value="timestamp">Recent</option>
+        <option value="voteScore">Votos</option>
+        <option value="timestamp">Recentes</option>
       </select>
     );
   }

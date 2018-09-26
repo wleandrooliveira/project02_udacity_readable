@@ -1,6 +1,18 @@
-import React from "react";
-import "./App.css";
+import React, { Component } from 'react'
+import { Menu, Container } from 'semantic-ui-react';
 
-const AppTitle = () => <h1 className={"AppTitle"}>BlogUdacity</h1>;
+class AppTitle extends Component {
+  render() {
+    return (
+      <Menu inverted fixed="top">
+      <Container>
+        <h1>BlogUdacity</h1>
+      </Container>
+      </Menu>
+      
+    )
+  }
+}
+
 
 export default AppTitle;

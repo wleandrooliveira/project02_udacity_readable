@@ -10,14 +10,14 @@ import LabelledTextInput from "./common/LabelledTextInput";
 
 const FormikForm = ({ values }) => (
   <Form className="NewPostForm">
-    <LabelledTextInput name="author" type="text" label="Your name:" />
-    <LabelledTextInput name="title" type="text" label="Title:" />
+    <LabelledTextInput name="author" type="text" label="Seu nome:" />
+    <LabelledTextInput name="title" type="text" label="Titulo:" />
     <label>
-      Body:
+      Texto:
       <Field component="textarea" name="body" />
     </label>
     <label>
-      Category:
+      Categoria:
       <Field component="select" name="category">
         {values.categories.map(category => (
           <option key={category.name} value={category.name}>
@@ -26,7 +26,7 @@ const FormikForm = ({ values }) => (
         ))}
       </Field>
     </label>
-    <Button text="Add Post" />
+    <Button text="Adicionar Post" />
   </Form>
 );
 

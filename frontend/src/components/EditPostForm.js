@@ -1,7 +1,7 @@
 import React from "react";
 import { connect } from "react-redux";
 import { withFormik, Form, Field } from "formik";
-import "./EditPostForm.css";
+import "./App.css";
 import { updatePost } from "../utils/api";
 import { closeEditPostForm, editPost } from "../actions";
 import Button from "./common/Button";
@@ -9,12 +9,12 @@ import LabelledTextInput from "./common/LabelledTextInput";
 
 const FormikForm = values => (
   <div className="EditPostForm">
-    <h3>Edit Post</h3>
+    <h3>Editar Post</h3>
     <Form>
       <LabelledTextInput name="title" type="text" label="Title:" />
-      <label htmlFor="body">Body:</label>
+      <label htmlFor="body">Texto:</label>
       <Field component="textarea" name="body" />
-      <Button text="Update Post" />
+      <Button text="Atualizar Post" />
     </Form>
   </div>
 );

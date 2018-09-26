@@ -11,7 +11,6 @@ class Category extends Component {
     this.props.dispatch(changeCategoryFilter(category));
   }
 
-  // For ariving via the URL & Using the navigation
   componentDidMount() {
     this.updateCategoryFilter();
   }

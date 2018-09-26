@@ -32,7 +32,7 @@ class Post extends Component {
             <div>{post.body}</div>
             <div>
               <span className="Post-author">
-                Posted by {post.author} in {capitalize(post.category)},{" "}
+                Postado por {post.author} in {capitalize(post.category)},{" "}
               </span>
               <span className="Post-date">
                 {new Date(post.timestamp).toDateString()} at{" "}
@@ -40,7 +40,7 @@ class Post extends Component {
               </span>
             </div>
             <div>
-              <span>{this.props.commentCount} Comments</span>
+              <span>{this.props.commentCount} Commentários</span>
               <PostButtons id={post.id} />
             </div>
           </div>

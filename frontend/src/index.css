@@ -32,7 +32,7 @@ nav ul li {
 }
 
 .active-nav-link {
-  color: #d65afc;
+  color: #eee7fd;
   text-decoration: underline;
 }
 
@@ -69,3 +69,5 @@ select,
 input[type="text"] {
   background-color: #fff;
 }
+
+

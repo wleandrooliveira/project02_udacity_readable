@@ -4,18 +4,18 @@
 }
 
 .Button:hover {
-  background-color: #d65afc;
-  border-color: #d65afc;
+  background-color: #555057;
+  border-color: #555057;
 }
 
 .Button--secondary {
-  background-color: #fc6a7e;
-  border-color: #fc6a7e;
+  background-color: #78b9b4;
+  border-color: #78b9b4;
 }
 
 .Button--secondary:hover {
-  background-color: #fc4383;
-  border-color: #fc4383;
+  background-color: #463d40;
+  border-color: #463d40;
 }
 
 .Button--small {
