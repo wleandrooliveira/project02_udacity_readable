@@ -7,7 +7,7 @@ import Button from "./common/Button";
 
 const FormikForm = ({ values }) => (
   <Form>
-    <Field component="textarea" name="Mensagem" />
+    <Field component="textarea" name="boby" />
     <Button text={"Atualizar o comentário"} />
   </Form>
 );

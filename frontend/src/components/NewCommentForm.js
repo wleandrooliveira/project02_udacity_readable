@@ -13,7 +13,7 @@ const FormikForm = ({ values }) => (
     <LabelledTextInput name="author" type="text" label="Seu Nome:" />
     <label>
       Commentário:
-      <Field component="textarea" name="Texto" />
+      <Field component="textarea" name="body" />
     </label>
     <Button text={"Adicionar comentário"} />
   </Form>
